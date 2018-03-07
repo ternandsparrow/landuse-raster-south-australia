@@ -21,8 +21,8 @@ docker run \
   geodata/gdal \
   gdal_rasterize \
     -a LU_CODEN \
-    -ot Byte \
-    -a_nodata 255 \
+    -ot UInt16 \
+    -a_nodata 2550 \
     -tr $metres_per_pixel $metres_per_pixel \
     $limit_the_extent \
     -l LANDSCAPE_LandUse_ALUM \
