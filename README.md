@@ -24,3 +24,7 @@ if I've stuffed the legals up.
  1. run the 'how to build the raster' steps from above
  1. run `./09build-release.sh`
  1. upload the built archive to github as a release
+
+## Pretty maps
+If you view the generated raster in QGIS, there is a colour map file you can
+use: `styles/landuse_sa-colour_map.txt`.
