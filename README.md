@@ -6,8 +6,8 @@ We're working with the https://data.sa.gov.au/data/dataset/land-use-aclump datas
 ## How to build the raster
 You'll need the following to use this repo:
 
- 1. a *nix computer (OSX might work but it untested)
- 1. the `docker` command (https://www.docker.com/)
+ 1. a *nix computer (OSX might work but is untested)
+ 1. `docker` (https://www.docker.com/)
 
 You just need to run the shell scripts in order: 01, 02, etc:
 ```bash
@@ -18,12 +18,13 @@ ls -lh workspace/landuse_sa_*m.tif # check your output file
 
 ## Building a release
 Not everyone wants to build the raster themselves so we make it available
-as a release on GitHub. I the CC-BY licence allows that, somebody correct me
-if I've stuffed the legals up.
+as a release on GitHub.
+
+Follow these steps to create and deploy a release:
 
  1. run the 'how to build the raster' steps from above
  1. run `./09build-release.sh`
- 1. upload the built archive to github as a release
+ 1. upload the built archive to GitHub as a release
 
 ## Pretty maps
 If you view the generated raster in QGIS, there is a colour map file you can
