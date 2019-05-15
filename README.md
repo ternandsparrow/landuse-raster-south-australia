@@ -27,5 +27,17 @@ Follow these steps to create and deploy a release:
  1. upload the built archive to GitHub as a release
 
 ## Pretty maps
-If you view the generated raster in QGIS, there is a colour map file you can
-use: `styles/landuse_sa-colour_map.txt`.
+If you view the generated raster in QGIS, there is a colour map file you can use.
+
+To use it (based on QGIS 3.6):
+  1. open QGIS
+  1. Layer -> Add Layer -> Add Raster Layer
+  1. select the raster you built using this repo, you can select the .gz file too
+  1. press *Add* then *Close*
+  1. you should see a greyscale map so far
+  1. right click the `south_australia_landcover.tif` layer in the *Layers* panel
+  1. select *Properties* from the right-click menu
+  1. select the *Symbology* item from the menu on th left
+  1. change *Render type* to *Palleted/Unique values*
+  1. select the file browser (`...` button to the right of the *Classify* and *Delete All* buttons)
+  1. select the `styles/styles.clr` file from this repo
