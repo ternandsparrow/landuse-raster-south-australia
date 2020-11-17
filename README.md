@@ -5,6 +5,11 @@ We're working with the https://data.sa.gov.au/data/dataset/land-use-aclump
 dataset here. See the `docs` directory for statistics on the raster as well as a
 lookup for what each landuse code is.
 
+Note: the raster is *not* the full state. It's clipped down the south east. It
+looks like:
+
+![screenshot of raster](docs/screenshot.png)
+
 ## How to build the raster
 You'll need the following to use this repo:
 
