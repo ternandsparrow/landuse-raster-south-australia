@@ -1,7 +1,9 @@
 All the steps required to generate a raster of land uses for South Australia.
 
 ## What data are we working with?
-We're working with the https://data.sa.gov.au/data/dataset/land-use-aclump dataset here.
+We're working with the https://data.sa.gov.au/data/dataset/land-use-aclump
+dataset here. See the `docs` directory for statistics on the raster as well as a
+lookup for what each landuse code is.
 
 ## How to build the raster
 You'll need the following to use this repo:
